@@ -42,7 +42,7 @@ class _StripeScreenState extends State<StripeScreen> {
           body: body,
           headers: {
             "Authorization":
-                "Bearer sk_test_51O3vTBFjZlcFvaF0heDfqENtV1vnp6Kups6TWAIjSg0Ic8meW7WOFCU8tZj5lZO1bKJO4hhRDACiNL2sQSZ5oSuT00zt2cJYZ9",
+                "Bearer s",
             "Content-Type": "application/x-www-form-urlencoded"
           });
       return jsonDecode(response.body.toString());
